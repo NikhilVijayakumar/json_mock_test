@@ -1040,9 +1040,80 @@
         "updatedBy": "Sensor Engineering Team"
       }     
     ]
-  }
-  
-  
-  
-  
+  },"home": {
+    "features": [
+      {
+        "id": 1,
+        "name": "Organization",
+        "display_order": 1,
+        "createdDate": "2023-07-25",
+        "createdBy": "SuperAdmin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "SuperAdmin"
+      },
+      {
+        "id": 2,
+        "name": "Users",
+        "display_order": 2,
+        "createdDate": "2023-07-25",
+        "createdBy": "SuperAdmin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "SuperAdmin"
+      },
+      {
+        "id": 3,
+        "name": "Roles",
+        "display_order": 3,
+        "createdDate": "2023-07-25",
+        "createdBy": "SuperAdmin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "SuperAdmin"
+      },
+      {
+        "id": 4,
+        "name": "Products",
+        "display_order": 4,
+        "createdDate": "2023-07-25",
+        "createdBy": "SuperAdmin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "SuperAdmin"
+      },
+      {
+        "id": 5,
+        "name": "Component Types",
+        "display_order": 5,
+        "createdDate": "2023-07-25",
+        "createdBy": "SuperAdmin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "SuperAdmin"
+      },
+      {
+        "id": 6,
+        "name": "Components",
+        "display_order": 6,
+        "createdDate": "2023-07-25",
+        "createdBy": "SuperAdmin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "SuperAdmin"
+      },
+      {
+        "id": 7,
+        "name": "Sensor Types",
+        "display_order": 7,
+        "createdDate": "2023-07-25",
+        "createdBy": "SuperAdmin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "SuperAdmin"
+      },
+      {
+        "id": 8,
+        "name": "Sensors",
+        "display_order": 8,
+        "createdDate": "2023-07-25",
+        "createdBy": "SuperAdmin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "SuperAdmin"
+      }
+    ]
+  }  
 }
