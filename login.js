@@ -5,7 +5,7 @@ const loginHandler = (req, res) => {
   const { email, password } = req.body;
 
   // Replace this with your actual authentication logic
-  const user = db.users.find((user) => user.email === email && user.password === password);
+  const user = db.users.data.find((user) => user.email === email && user.password === password);
 
   if (user) {
     // Replace this with your actual authentication logic to generate a token
