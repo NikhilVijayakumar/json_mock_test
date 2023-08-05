@@ -13,6 +13,7 @@ const loginHandler = (req, res) => {
     user.token = token;
     user.password = undefined;
     res.status(200).json({ message: "Login successful", user });
+    user.password = password;
   } else {
     res.status(401).json({ message: "Invalid email or password","email":email, "password":password,"body":req.body });
   }

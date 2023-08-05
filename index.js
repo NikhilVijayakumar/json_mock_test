@@ -4,9 +4,9 @@ const server = jsonServer.create();
 
 const middlewares = jsonServer.defaults();
 
-server.use(jsonServer.rewriter({
-  '/api/v1/*': '/$1', 
-}))
+// server.use(jsonServer.rewriter({
+//   '/api/v1/*': '/$1', 
+// }))
 const router = jsonServer.router("db.json");
 
 // Import the login handler
