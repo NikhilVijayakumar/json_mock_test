@@ -1,0 +1,21 @@
+{
+  "name": "aikya_sphere_mock_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve-json": "json-server --watch db.json --routes routes.json --middlewares server.ts --port 4004",
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "json-server": "^0.17.3",
+    "lodash.clonedeep": "^4.5.0",
+    "uuid": "^9.0.0"
+  }
+}

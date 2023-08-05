@@ -1,0 +1,1048 @@
+{
+    "users": {
+      "data": [
+        {
+          "id": 1,
+          "email": "john.doe@fakeorg.com",
+          "password": "Strong@123",
+          "firstName": "John",
+          "lastName": "Doe",
+          "role": "SuperAdmin",
+          "token": "fake-jwt-token",
+          "createdDate": "2023-07-25",
+          "createdBy": "SuperAdmin",
+          "updatedDate": "2023-07-26",
+          "updatedBy": "SuperAdmin"
+        },
+        {
+          "id": 2,
+          "email": "jane.smith@fakeorg.com",
+          "password": "SecurePwd456!",
+          "firstName": "Jane",
+          "lastName": "Smith",
+          "role": "SuperAdmin",
+          "token": "fake-jwt-token",
+          "createdDate": "2023-07-25",
+          "createdBy": "SuperAdmin",
+          "updatedDate": "2023-07-26",
+          "updatedBy": "SuperAdmin"
+        },
+        {
+          "id": 3,
+          "email": "michael.johnson@fakeorg.com",
+          "password": "AdminPwd123!",
+          "firstName": "Michael",
+          "lastName": "Johnson",
+          "role": "Admin",
+          "token": "fake-jwt-token",
+          "createdDate": "2023-07-27",
+          "createdBy": "SuperAdmin",
+          "updatedDate": "2023-07-27",
+          "updatedBy": "AdminUser"
+        },
+        {
+          "id": 4,
+          "email": "emily.brown@fakeorg.com",
+          "password": "UserPwd789!",
+          "firstName": "Emily",
+          "lastName": "Brown",
+          "role": "User",
+          "createdDate": "2023-07-28",
+          "createdBy": "SuperAdmin",
+          "updatedDate": "2023-07-28",
+          "updatedBy": "RegularUser"
+        }
+      ],
+      "tableHeaders": [
+        {
+          "id": 1,
+          "label": "ID",
+          "sortable": true,
+          "filterable": true,
+          "type": "number",
+          "display_order": 1
+        },
+        {
+          "id": "email",
+          "label": "Email",
+          "sortable": true,
+          "filterable": true,
+          "type": "string",
+          "display_order": 2
+        },
+        {
+          "id": "firstName",
+          "label": "First Name",
+          "sortable": true,
+          "filterable": true,
+          "type": "string",
+          "display_order": 3
+        },
+        {
+          "id": "lastName",
+          "label": "Last Name",
+          "sortable": true,
+          "filterable": true,
+          "type": "string",
+          "display_order": 4
+        },
+        {
+          "id": "role",
+          "label": "Role",
+          "sortable": true,
+          "filterable": true,
+          "type": "string",
+          "display_order": 5
+        },
+        {
+          "id": "createdDate",
+          "label": "Created Date",
+          "sortable": true,
+          "filterable": true,
+          "type": "date",
+          "display_order": 6
+        },
+        {
+          "id": "createdBy",
+          "label": "Created By",
+          "sortable": true,
+          "filterable": true,
+          "type": "string",
+          "display_order": 7
+        },
+        {
+          "id": "updatedDate",
+          "label": "Updated Date",
+          "sortable": true,
+          "filterable": true,
+          "type": "date",
+          "display_order": 8
+        },
+        {
+          "id": "updatedBy",
+          "label": "Updated By",
+          "sortable": true,
+          "filterable": true,
+          "type": "string",
+          "display_order": 9
+        }
+      ]
+    },
+  "login": {},
+  "roles": {
+    "data": [
+      {
+        "id": 1,
+        "name": "SuperAdmin",
+        "description": "SuperAdmin",
+        "createdDate": "2023-07-25",
+        "createdBy": "SuperAdmin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "SuperAdmin"
+      },
+      {
+        "id": 2,
+        "name": "Admin",
+        "description": "Admin",
+        "createdDate": "2023-07-25",
+        "createdBy": "SuperAdmin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "SuperAdmin"
+      },
+      {
+        "id": 3,
+        "name": "User",
+        "description": "User",
+        "createdDate": "2023-07-25",
+        "createdBy": "SuperAdmin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "SuperAdmin"
+      }
+    ],
+    "tableHeaders": [
+      {
+        "id": 1,
+        "label": "ID",
+        "sortable": true,
+        "filterable": true,
+        "type": "number",
+        "display_order": 1
+      },
+      {
+        "id": "name",
+        "label": "Name",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 2
+      },
+      {
+        "id": "description",
+        "label": "Description",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 3
+      },
+      {
+        "id": "createdDate",
+        "label": "Created Date",
+        "sortable": true,
+        "filterable": true,
+        "type": "date",
+        "display_order": 4
+      },
+      {
+        "id": "createdBy",
+        "label": "Created By",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 5
+      },
+      {
+        "id": "updatedDate",
+        "label": "Updated Date",
+        "sortable": true,
+        "filterable": true,
+        "type": "date",
+        "display_order": 6
+      },
+      {
+        "id": "updatedBy",
+        "label": "Updated By",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 7
+      }
+    ]
+  }, "products": {
+    "tableHeaders": [
+      {
+        "id": "name",
+        "label": "Name",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 1
+      },
+      {
+        "id": "api_key",
+        "label": "API Key",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 2
+      },
+      {
+        "id": "description",
+        "label": "Description",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 3
+      },
+      {
+        "id": "address",
+        "label": "Address",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 4
+      },
+      {
+        "id": "contactName",
+        "label": "Contact Name",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 5
+      },
+      {
+        "id": "contactEmail",
+        "label": "Contact Email",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 6
+      },
+      {
+        "id": "createdDate",
+        "label": "Created Date",
+        "sortable": true,
+        "filterable": true,
+        "type": "date",
+        "display_order": 7
+      },
+      {
+        "id": "createdBy",
+        "label": "Created By",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 8
+      },
+      {
+        "id": "updatedDate",
+        "label": "Updated Date",
+        "sortable": true,
+        "filterable": true,
+        "type": "date",
+        "display_order": 9
+      },
+      {
+        "id": "updatedBy",
+        "label": "Updated By",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 10
+      }
+    ],
+    "data": [
+      {
+        "id": 1,
+        "name": "Frozen yoghurt",
+        "api_key": "product-1",
+        "description": "Delicious frozen yoghurt",
+        "address": "123 Main St, City",
+        "contactName": "John Doe",
+        "contactEmail": "john.doe@example.com",
+        "createdDate": "2023-07-25",
+        "createdBy": "Admin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Superuser"
+      },
+      {
+        "id": 2,
+        "name": "ABC Corporation",
+        "api_key": "product-2",
+        "description": "Leading technology company",
+        "address": "456 Tech Park, City",
+        "contactName": "John Smith",
+        "contactEmail": "john.smith@example.com",
+        "createdDate": "2023-07-25",
+        "createdBy": "Admin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Superuser"
+      },
+      {
+        "id": 3,
+        "name": "Sample Product",
+        "api_key": "product-3",
+        "description": "This is a sample product",
+        "address": "789 Sample Road, City",
+        "contactName": "Sarah Johnson",
+        "contactEmail": "sarah.johnson@example.com",
+        "createdDate": "2023-07-25",
+        "createdBy": "Admin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Superuser"
+      },
+      {
+        "id": 4,
+        "name": "Gourmet Cookies",
+        "api_key": "product-4",
+        "description": "Delicious gourmet cookies",
+        "address": "456 Baker Street, City",
+        "contactName": "Alice Baker",
+        "contactEmail": "alice.baker@example.com",
+        "createdDate": "2023-07-25",
+        "createdBy": "Admin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Superuser"
+      },
+      {
+        "id": 5,
+        "name": "Electronics Store",
+        "api_key": "product-5",
+        "description": "Electronics for every need",
+        "address": "123 Tech Avenue, City",
+        "contactName": "Michael Lee",
+        "contactEmail": "michael.lee@example.com",
+        "createdDate": "2023-07-25",
+        "createdBy": "Admin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Superuser"
+      },
+      {
+        "id": 6,
+        "name": "Art Supplies",
+        "api_key": "product-6",
+        "description": "Quality art supplies",
+        "address": "789 Art Street, City",
+        "contactName": "Emily Carter",
+        "contactEmail": "emily.carter@example.com",
+        "createdDate": "2023-07-25",
+        "createdBy": "Admin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Superuser"
+      },
+      {
+        "id": 7,
+        "name": "Sports Gear",
+        "api_key": "product-7",
+        "description": "Gear up for sports",
+        "address": "555 Sports Road, City",
+        "contactName": "David Williams",
+        "contactEmail": "david.williams@example.com",
+        "createdDate": "2023-07-25",
+        "createdBy": "Admin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Superuser"
+      }
+    ]
+  },
+   "boardModels": {
+    "tableHeaders": [
+      {
+        "id": 1,
+        "label": "Name",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 1
+      },
+      {
+        "id": 2,
+        "label": "Description",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 2
+      },
+      {
+        "id": 3,
+        "label": "Created date",
+        "sortable": true,
+        "filterable": true,
+        "type": "date",
+        "display_order": 3
+      },
+      {
+        "id": 4,
+        "label": "Created by",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 4
+      },
+      {
+        "id": 5,
+        "label": "Updated date",
+        "sortable": true,
+        "filterable": true,
+        "type": "date",
+        "display_order": 5
+      },
+      {
+        "id": 6,
+        "label": "Updated by",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 6
+      }
+    ],
+    "data": [
+      {
+        "id": 1,
+        "name": "Raspberry Pi 4 Model B",
+        "description": "A powerful single-board computer for various projects",
+        "createdDate": "2023-07-25",
+        "createdBy": "Raspberry Pi Foundation",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Raspberry Pi Community"
+      },
+      {
+        "id": 2,
+        "name": "Arduino Uno Rev3",
+        "description": "An easy-to-use microcontroller board for beginners",
+        "createdDate": "2023-07-20",
+        "createdBy": "Arduino LLC",
+        "updatedDate": "2023-07-28",
+        "updatedBy": "Arduino Community"
+      },
+      {
+        "id": 3,
+        "name": "Raspberry Pi Pico",
+        "description": "A tiny microcontroller board with flexible I/O options",
+        "createdDate": "2023-07-15",
+        "createdBy": "Raspberry Pi Foundation",
+        "updatedDate": "2023-07-24",
+        "updatedBy": "Raspberry Pi Community"
+      },
+      {
+        "id": 4,
+        "name": "Arduino Nano 33 IoT",
+        "description": "An IoT-focused board with integrated Wi-Fi and Bluetooth",
+        "createdDate": "2023-07-12",
+        "createdBy": "Arduino LLC",
+        "updatedDate": "2023-07-29",
+        "updatedBy": "Arduino Community"
+      },
+      {
+        "id": 5,
+        "name": "Raspberry Pi Zero W",
+        "description": "A low-cost board with wireless connectivity for IoT projects",
+        "createdDate": "2023-07-18",
+        "createdBy": "Raspberry Pi Foundation",
+        "updatedDate": "2023-07-23",
+        "updatedBy": "Raspberry Pi Community"
+      },
+      {
+        "id": 6,
+        "name": "Arduino Mega 2560 Rev3",
+        "description": "A board with abundant I/O pins for complex projects",
+        "createdDate": "2023-07-22",
+        "createdBy": "Arduino LLC",
+        "updatedDate": "2023-07-27",
+        "updatedBy": "Arduino Community"
+      }      
+    ]
+  },"boards":{
+    "tableHeaders": [
+      {
+        "id": "name",
+        "label": "Name",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 1
+      },
+      {
+        "id": "producer",
+        "label": "Producer",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 2
+      },
+      {
+        "id": "model",
+        "label": "Model",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 3
+      },
+      {
+        "id": "board_model",
+        "label": "Board model",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 4
+      },
+      {
+        "id": "serial_number",
+        "label": "Serial number",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 5
+      },
+      {
+        "id": "mac",
+        "label": "MAC",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 6
+      },
+      {
+        "id": "power_type",
+        "label": "Power type",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 7
+      },
+      {
+        "id": "connectivity_type",
+        "label": "Connectivity type",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 8
+      },
+      {
+        "id": "isMobile",
+        "label": "Is Mobile",
+        "sortable": true,
+        "filterable": true,
+        "type": "boolean",
+        "display_order": 9
+      },
+      {
+        "id": "latitude",
+        "label": "Latitude",
+        "sortable": true,
+        "filterable": true,
+        "type": "number",
+        "display_order": 10
+      },
+      {
+        "id": "longitude",
+        "label": "Longitude",
+        "sortable": true,
+        "filterable": true,
+        "type": "number",
+        "display_order": 11
+      },
+      {
+        "id": "createdDate",
+        "label": "Created Date",
+        "sortable": true,
+        "filterable": true,
+        "type": "date",
+        "display_order": 12
+      },
+      {
+        "id": "createdBy",
+        "label": "Created By",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 13
+      },
+      {
+        "id": "updatedDate",
+        "label": "Updated Date",
+        "sortable": true,
+        "filterable": true,
+        "type": "date",
+        "display_order": 14
+      },
+      {
+        "id": "updatedBy",
+        "label": "Updated By",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 15
+      }
+    ],
+    "data": [
+      {
+        "id": 1,
+        "name": "Raspberry Pi 4 Model B",
+        "producer": "Raspberry Pi Foundation",
+        "model": "4 Model B",
+        "board_model": "Raspberry Pi",
+        "serial_number": "12345678",
+        "mac": "AB:CD:EF:12:34:56",
+        "power_type": "USB-C",
+        "connectivity_type": "Wi-Fi, Bluetooth",
+        "isMobile": false,
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "createdDate": "2023-07-25",
+        "createdBy": "Raspberry Pi Foundation",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Raspberry Pi Community"
+      },
+      {
+        "id": 2,
+        "name": "Arduino Uno Rev3",
+        "producer": "Arduino LLC",
+        "model": "Uno Rev3",
+        "board_model": "Arduino Uno",
+        "serial_number": "98765432",
+        "mac": "12:34:56:AB:CD:EF",
+        "power_type": "USB",
+        "connectivity_type": "None",
+        "isMobile": true,
+        "latitude": 40.7128,
+        "longitude": -74.0060,
+        "createdDate": "2023-07-20",
+        "createdBy": "Arduino LLC",
+        "updatedDate": "2023-07-28",
+        "updatedBy": "Arduino Community"
+      },
+      {
+        "id": 3,
+        "name": "NodeMCU ESP8266",
+        "producer": "Espressif Systems",
+        "model": "NodeMCU v3",
+        "board_model": "ESP8266",
+        "serial_number": "01234567",
+        "mac": "01:23:45:67:89:AB",
+        "power_type": "Micro-USB",
+        "connectivity_type": "Wi-Fi",
+        "isMobile": false,
+        "latitude": 51.5074,
+        "longitude": -0.1278,
+        "createdDate": "2023-08-01",
+        "createdBy": "Espressif Systems",
+        "updatedDate": "2023-08-02",
+        "updatedBy": "Espressif Community"
+      },
+      {
+        "id": 4,
+        "name": "BeagleBone Black",
+        "producer": "BeagleBoard.org",
+        "model": "BeagleBone Black",
+        "board_model": "BeagleBone",
+        "serial_number": "ABCDEF01",
+        "mac": "12:34:56:78:90:AB",
+        "power_type": "Micro-USB",
+        "connectivity_type": "Ethernet",
+        "isMobile": false,
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "createdDate": "2023-08-05",
+        "createdBy": "BeagleBoard.org",
+        "updatedDate": "2023-08-06",
+        "updatedBy": "BeagleBoard Community"
+      },
+      {
+        "id": 5,
+        "name": "Particle Argon",
+        "producer": "Particle Industries",
+        "model": "Argon",
+        "board_model": "Particle",
+        "serial_number": "FEDCBA98",
+        "mac": "98:76:54:32:10:FE",
+        "power_type": "USB-C",
+        "connectivity_type": "Wi-Fi, Mesh",
+        "isMobile": true,
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "createdDate": "2023-08-10",
+        "createdBy": "Particle Industries",
+        "updatedDate": "2023-08-11",
+        "updatedBy": "Particle Community"
+      },
+      {
+        "id": 6,
+        "name": "Adafruit Feather M0",
+        "producer": "Adafruit Industries",
+        "model": "Feather M0",
+        "board_model": "Feather",
+        "serial_number": "24681357",
+        "mac": "56:34:12:FE:DC:BA",
+        "power_type": "USB",
+        "connectivity_type": "None",
+        "isMobile": true,
+        "latitude": 40.7128,
+        "longitude": -74.0060,
+        "createdDate": "2023-08-15",
+        "createdBy": "Adafruit Industries",
+        "updatedDate": "2023-08-16",
+        "updatedBy": "Adafruit Community"
+      },
+      {
+        "id": 7,
+        "name": "ESP32 DevKitC",
+        "producer": "Espressif Systems",
+        "model": "ESP32 DevKitC",
+        "board_model": "ESP32",
+        "serial_number": "98765432",
+        "mac": "BA:DC:FE:10:32:76",
+        "power_type": "Micro-USB",
+        "connectivity_type": "Wi-Fi, Bluetooth",
+        "isMobile": false,
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "createdDate": "2023-08-20",
+        "createdBy": "Espressif Systems",
+        "updatedDate": "2023-08-21",
+        "updatedBy": "Espressif Community"
+      },
+      {
+        "id": 8,
+        "name": "STM32 Nucleo-64",
+        "producer": "STMicroelectronics",
+        "model": "Nucleo-F446RE",
+        "board_model": "STM32 Nucleo",
+        "serial_number": "13579135",
+        "mac": "32:10:FE:DC:BA:98",
+        "power_type": "USB",
+        "connectivity_type": "None",
+        "isMobile": false,
+        "latitude": 51.5074,
+        "longitude": -0.1278,
+        "createdDate": "2023-08-25",
+        "createdBy": "STMicroelectronics",
+        "updatedDate": "2023-08-26",
+        "updatedBy": "STMicroelectronics Community"
+      }
+    ]
+  },"sensorModels":{
+    "tableHeaders": [
+      {
+        "id": "name",
+        "label": "Name",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 1
+      },
+      {
+        "id": "description",
+        "label": "Description",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 2
+      },
+      {
+        "id": "createdDate",
+        "label": "Created date",
+        "sortable": true,
+        "filterable": true,
+        "type": "date",
+        "display_order": 3
+      },
+      {
+        "id": "createdBy",
+        "label": "Created by",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 4
+      },
+      {
+        "id": "updatedDate",
+        "label": "Updated date",
+        "sortable": true,
+        "filterable": true,
+        "type": "date",
+        "display_order": 5
+      },
+      {
+        "id": "updatedBy",
+        "label": "Updated by",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 6
+      }
+    ],
+    "data": [
+      {
+        "id": 1,
+        "name": "Temperature Sensor",
+        "description": "Measures the ambient temperature in Celsius",
+        "createdDate": "2023-07-25",
+        "createdBy": "Sensor Technologies Inc.",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Sensor Engineering Team"
+      },
+      {
+        "id": 2,
+        "name": "Pressure Sensor",
+        "description": "Measures the atmospheric pressure in hPa",
+        "createdDate": "2023-07-20",
+        "createdBy": "Sensor Technologies Inc.",
+        "updatedDate": "2023-07-28",
+        "updatedBy": "Sensor Engineering Team"
+      },
+      {
+        "id": 3,
+        "name": "Humidity Sensor",
+        "description": "Measures the relative humidity in percentage",
+        "createdDate": "2023-07-15",
+        "createdBy": "Sensor Technologies Inc.",
+        "updatedDate": "2023-07-24",
+        "updatedBy": "Sensor Engineering Team"
+      },
+      {
+        "id": 4,
+        "name": "Motion Sensor",
+        "description": "Detects motion and movement in its surroundings",
+        "createdDate": "2023-07-12",
+        "createdBy": "Sensor Technologies Inc.",
+        "updatedDate": "2023-07-29",
+        "updatedBy": "Sensor Engineering Team"
+      },
+      {
+        "id": 5,
+        "name": "Light Sensor",
+        "description": "Measures the intensity of ambient light in lux",
+        "createdDate": "2023-07-18",
+        "createdBy": "Sensor Technologies Inc.",
+        "updatedDate": "2023-07-23",
+        "updatedBy": "Sensor Engineering Team"
+      },
+      {
+        "id": 6,
+        "name": "Proximity Sensor",
+        "description": "Detects the presence or absence of an object within a certain range",
+        "createdDate": "2023-07-22",
+        "createdBy": "Sensor Technologies Inc.",
+        "updatedDate": "2023-07-27",
+        "updatedBy": "Sensor Engineering Team"
+      }
+    ]
+  },"sensors":{
+    "tableHeaders": [
+      {
+        "id": "name",
+        "label": "Name",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 1
+      },
+      {
+        "id": "producer",
+        "label": "Producer",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 2
+      },
+      {
+        "id": "model",
+        "label": "Model",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 3
+      },
+      {
+        "id": "sensor_model",
+        "label": "Sensor model",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 4
+      },
+      {
+        "id": "serial_number",
+        "label": "Serial number",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 5
+      },
+      {
+        "id": "power_type",
+        "label": "Power type",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 6
+      },
+      {
+        "id": "createdDate",
+        "label": "Created date",
+        "sortable": true,
+        "filterable": true,
+        "type": "date",
+        "display_order": 7
+      },
+      {
+        "id": "createdBy",
+        "label": "Created by",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 8
+      },
+      {
+        "id": "updatedDate",
+        "label": "Updated date",
+        "sortable": true,
+        "filterable": true,
+        "type": "date",
+        "display_order": 9
+      },
+      {
+        "id": "updatedBy",
+        "label": "Updated by",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 10
+      }
+    ],
+    "data": [
+      {
+        "id": 1,
+        "name": "Temperature Sensor",
+        "producer": "SensorTech Inc.",
+        "model": "TempSense-2000",
+        "sensor_model": "Temperature Sensor",
+        "serial_number": "TS12345678",
+        "power_type": "Battery",
+        "createdDate": "2023-07-25",
+        "createdBy": "SensorTech Inc.",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Sensor Engineering Team"
+      },
+      {
+        "id": 2,
+        "name": "Pressure Sensor",
+        "producer": "SensorTech Inc.",
+        "model": "PressurePro-500",
+        "sensor_model": "Pressure Sensor",
+        "serial_number": "PS98765432",
+        "power_type": "Solar",
+        "createdDate": "2023-07-20",
+        "createdBy": "SensorTech Inc.",
+        "updatedDate": "2023-07-28",
+        "updatedBy": "Sensor Engineering Team"
+      },
+      {
+        "id": 3,
+        "name": "Humidity Sensor",
+        "producer": "HumidityTech Ltd.",
+        "model": "HumidSense-100",
+        "sensor_model": "Humidity Sensor",
+        "serial_number": "HS56789012",
+        "power_type": "Battery",
+        "createdDate": "2023-07-15",
+        "createdBy": "HumidityTech Ltd.",
+        "updatedDate": "2023-07-24",
+        "updatedBy": "Sensor Engineering Team"
+      },
+      {
+        "id": 4,
+        "name": "Motion Sensor",
+        "producer": "MotionTech Corp.",
+        "model": "MotionDetect-300",
+        "sensor_model": "Motion Sensor",
+        "serial_number": "MS34567890",
+        "power_type": "Battery",
+        "createdDate": "2023-07-12",
+        "createdBy": "MotionTech Corp.",
+        "updatedDate": "2023-07-29",
+        "updatedBy": "Sensor Engineering Team"
+      },
+      {
+        "id": 5,
+        "name": "Light Sensor",
+        "producer": "LightTech Solutions",
+        "model": "LightSense-1000",
+        "sensor_model": "Light Sensor",
+        "serial_number": "LS89012345",
+        "power_type": "USB",
+        "createdDate": "2023-07-18",
+        "createdBy": "LightTech Solutions",
+        "updatedDate": "2023-07-23",
+        "updatedBy": "Sensor Engineering Team"
+      },
+      {
+        "id": 6,
+        "name": "Proximity Sensor",
+        "producer": "ProxiSense Inc.",
+        "model": "ProxiSense-200",
+        "sensor_model": "Proximity Sensor",
+        "serial_number": "PS45678901",
+        "power_type": "Battery",
+        "createdDate": "2023-07-22",
+        "createdBy": "ProxiSense Inc.",
+        "updatedDate": "2023-07-27",
+        "updatedBy": "Sensor Engineering Team"
+      }     
+    ]
+  }
+  
+  
+  
+  
+}
