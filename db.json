@@ -1080,7 +1080,7 @@
       },
       {
         "id": 5,
-        "name": "Component Types",
+        "name": "BoardsModels",
         "display_order": 5,
         "createdDate": "2023-07-25",
         "createdBy": "SuperAdmin",
@@ -1089,7 +1089,7 @@
       },
       {
         "id": 6,
-        "name": "Components",
+        "name": "Boards",
         "display_order": 6,
         "createdDate": "2023-07-25",
         "createdBy": "SuperAdmin",
@@ -1098,7 +1098,7 @@
       },
       {
         "id": 7,
-        "name": "Sensor Types",
+        "name": "SensorModels",
         "display_order": 7,
         "createdDate": "2023-07-25",
         "createdBy": "SuperAdmin",
