@@ -1115,5 +1115,155 @@
         "updatedBy": "SuperAdmin"
       }
     ]
-  }  
+  },"organizations":{
+    "tableHeaders": [
+      {
+        "id": 1,
+        "label": "Name",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 1
+      },
+      {
+        "id": 2,
+        "label": "Description",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 2
+      },
+      {
+        "id": 3,
+        "label": "Address",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 3
+      },
+      {
+        "id": 4,
+        "label": "Contact name",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 4
+      },
+      {
+        "id": 5,
+        "label": "Contact email",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 5
+      },
+      {
+        "id": 6,
+        "label": "Created date",
+        "sortable": true,
+        "filterable": true,
+        "type": "date",
+        "display_order": 6
+      },
+      {
+        "id": 7,
+        "label": "Created by",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 7
+      },
+      {
+        "id": 8,
+        "label": "Updated date",
+        "sortable": true,
+        "filterable": true,
+        "type": "date",
+        "display_order": 8
+      },
+      {
+        "id": 9,
+        "label": "Updated by",
+        "sortable": true,
+        "filterable": true,
+        "type": "string",
+        "display_order": 9
+      }
+    ],
+    "data": [
+      {
+        "id": 1,
+        "name": "Frozen yoghurt",
+        "description": "Delicious frozen yoghurt",
+        "address": "123 Main St, City",
+        "contactName": "John Doe",
+        "contactEmail": "john.doe@frozenyoghurt.com",
+        "createdDate": "2023-07-25",
+        "createdBy": "Admin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Superuser"
+      },
+      {
+        "id": 2,
+        "name": "ABC Corporation",
+        "description": "Leading technology company",
+        "address": "456 Tech Park, City",
+        "contactName": "John Smith",
+        "contactEmail": "john.smith@abccorp.com",
+        "createdDate": "2023-07-25",
+        "createdBy": "Admin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Superuser"
+      },
+      {
+        "id": 3,
+        "name": "XYZ Enterprises",
+        "description": "Global consulting firm",
+        "address": "789 Business Avenue, City",
+        "contactName": "Jane Doe",
+        "contactEmail": "jane.doe@xyzenterprises.com",
+        "createdDate": "2023-07-25",
+        "createdBy": "Admin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Superuser"
+      },
+      {
+        "id": 4,
+        "name": "Acme Inc.",
+        "description": "Manufacturer of quality products",
+        "address": "123 Industrial Road, City",
+        "contactName": "Michael Johnson",
+        "contactEmail": "michael.johnson@acmeinc.com",
+        "createdDate": "2023-07-25",
+        "createdBy": "Admin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Superuser"
+      },
+      {
+        "id": 5,
+        "name": "Global Health Organization",
+        "description": "Non-profit working for a healthier world",
+        "address": "321 Charity Street, City",
+        "contactName": "Emily Brown",
+        "contactEmail": "emily.brown@globalhealthorg.net",
+        "createdDate": "2023-07-25",
+        "createdBy": "Admin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Superuser"
+      },
+      {
+        "id": 6,
+        "name": "Tech Innovators",
+        "description": "Startup revolutionizing technology",
+        "address": "555 Innovation Blvd, City",
+        "contactName": "David Lee",
+        "contactEmail": "david.lee@techinnovators.io",
+        "createdDate": "2023-07-25",
+        "createdBy": "Admin",
+        "updatedDate": "2023-07-26",
+        "updatedBy": "Superuser"
+      }
+    ]
+  }
+    
 }
