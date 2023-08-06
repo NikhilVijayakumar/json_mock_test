@@ -57,70 +57,87 @@
         {
           "id": 1,
           "label": "ID",
+          "key": "id",
+          "isHidden": false,
           "sortable": true,
           "filterable": true,
           "type": "number",
-          "display_order": 1
+          "display_order": 1         
         },
         {
-          "id": "email",
+          "id": 2,
           "label": "Email",
+          "key": "email",
+          "isHidden": false,
           "sortable": true,
           "filterable": true,
           "type": "string",
           "display_order": 2
         },
         {
-          "id": "firstName",
+          "id": 3,
           "label": "First Name",
+          "key": "firstName",
+          "isHidden": false,
           "sortable": true,
           "filterable": true,
           "type": "string",
           "display_order": 3
         },
         {
-          "id": "lastName",
+          "id": 4,
           "label": "Last Name",
+          "key": "lastName",
+          "isHidden": false,
           "sortable": true,
           "filterable": true,
           "type": "string",
           "display_order": 4
         },
         {
-          "id": "role",
+          "id":5,
           "label": "Role",
+          "key": "role",
+          "isHidden": false,
           "sortable": true,
           "filterable": true,
           "type": "string",
           "display_order": 5
         },
         {
-          "id": "createdDate",
+          "id": 6,
           "label": "Created Date",
+          "key": "createdDate",
           "sortable": true,
           "filterable": true,
           "type": "date",
           "display_order": 6
         },
         {
-          "id": "createdBy",
+          "id": 7,
           "label": "Created By",
+          "key": "createdBy",
+          "isHidden": false,
           "sortable": true,
           "filterable": true,
           "type": "string",
           "display_order": 7
         },
         {
-          "id": "updatedDate",
+          "id": 8,
           "label": "Updated Date",
+          "key": "updatedDate",
+          "isHidden": false,
           "sortable": true,
           "filterable": true,
           "type": "date",
           "display_order": 8
         },
         {
-          "id": "updatedBy",
+          "id": 9,
           "label": "Updated By",
+          "key": "updatedBy",
+          "isHidden": false,
           "sortable": true,
           "filterable": true,
           "type": "string",
@@ -163,54 +180,68 @@
       {
         "id": 1,
         "label": "ID",
+        "key": "id",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "number",
         "display_order": 1
       },
       {
-        "id": "name",
+        "id": 2,
         "label": "Name",
+        "key": "name",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 2
       },
       {
-        "id": "description",
+        "id": 3,
         "label": "Description",
+        "key": "description",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 3
       },
       {
-        "id": "createdDate",
+        "id":4,
         "label": "Created Date",
+        "key": "createdDate",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "date",
         "display_order": 4
       },
       {
-        "id": "createdBy",
+        "id": 5,
         "label": "Created By",
+        "key": "createdBy",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 5
       },
       {
-        "id": "updatedDate",
+        "id": 5,
         "label": "Updated Date",
+        "key": "updatedDate",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "date",
         "display_order": 6
       },
       {
-        "id": "updatedBy",
+        "id":6,
         "label": "Updated By",
+        "key": "updatedBy",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
@@ -220,80 +251,100 @@
   }, "products": {
     "tableHeaders": [
       {
-        "id": "name",
+        "id": 1,
         "label": "Name",
+        "key": "name",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 1
       },
       {
-        "id": "api_key",
+        "id": 2,
         "label": "API Key",
+        "key": "api_key",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 2
       },
       {
-        "id": "description",
+        "id": 3,
         "label": "Description",
+        "key": "description",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 3
       },
       {
-        "id": "address",
+        "id": 4,
         "label": "Address",
+        "key": "address",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 4
       },
       {
-        "id": "contactName",
+        "id":5,
         "label": "Contact Name",
+        "key": "contactName",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 5
       },
       {
-        "id": "contactEmail",
+        "id": 6,
         "label": "Contact Email",
+        "key": "contactEmail",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 6
       },
       {
-        "id": "createdDate",
+        "id": 7,
         "label": "Created Date",
+        "key": "createdDate",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "date",
         "display_order": 7
       },
       {
-        "id": "createdBy",
+        "id": 8,
         "label": "Created By",
+        "key": "createdBy",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 8
       },
       {
-        "id": "updatedDate",
+        "id": 9,
         "label": "Updated Date",
+        "key": "updatedDate",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "date",
         "display_order": 9
       },
       {
-        "id": "updatedBy",
+        "id": 10,
         "label": "Updated By",
+        "key": "updatedBy",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
@@ -399,6 +450,8 @@
       {
         "id": 1,
         "label": "Name",
+        "key": "name",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
@@ -407,6 +460,8 @@
       {
         "id": 2,
         "label": "Description",
+        "key": "description",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
@@ -415,6 +470,8 @@
       {
         "id": 3,
         "label": "Created date",
+        "key": "createdDate",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "date",
@@ -423,6 +480,8 @@
       {
         "id": 4,
         "label": "Created by",
+        "key": "createdBy",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
@@ -431,6 +490,8 @@
       {
         "id": 5,
         "label": "Updated date",
+        "key": "updatedDate",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "date",
@@ -439,6 +500,8 @@
       {
         "id": 6,
         "label": "Updated by",
+        "key": "updatedBy",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
@@ -504,120 +567,149 @@
   },"boards":{
     "tableHeaders": [
       {
-        "id": "name",
+        "id": 1,
         "label": "Name",
+        "key": "name",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 1
       },
       {
-        "id": "producer",
+        "id": 2,
         "label": "Producer",
+        "key": "producer",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 2
       },
       {
-        "id": "model",
+        "id":3,
         "label": "Model",
+        "key": "model",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 3
       },
       {
-        "id": "board_model",
+        "id": 4,
         "label": "Board model",
+        "key": "board_model",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 4
       },
       {
-        "id": "serial_number",
+        "id": 5,
         "label": "Serial number",
+        "key": "serial_number",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 5
       },
       {
-        "id": "mac",
+        "id": 6,
         "label": "MAC",
+        "key": "mac",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 6
       },
       {
-        "id": "power_type",
+        "id": 7,
         "label": "Power type",
+        "key": "power_type",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 7
       },
       {
-        "id": "connectivity_type",
+        "id": 8,
         "label": "Connectivity type",
+        "key": "connectivity_type",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 8
       },
       {
-        "id": "isMobile",
+        "id": 9,
         "label": "Is Mobile",
+        "key": "isMobile",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "boolean",
         "display_order": 9
       },
       {
-        "id": "latitude",
+        "id": 10,
         "label": "Latitude",
+        "key": "latitude",
         "sortable": true,
         "filterable": true,
         "type": "number",
         "display_order": 10
       },
       {
-        "id": "longitude",
+        "id": 11,
         "label": "Longitude",
+        "key": "longitude",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "number",
         "display_order": 11
       },
       {
-        "id": "createdDate",
+        "id": 12,
         "label": "Created Date",
+        "key": "createdDate",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "date",
         "display_order": 12
       },
       {
-        "id": "createdBy",
+        "id": 13,
         "label": "Created By",
+        "key": "createdBy",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 13
       },
       {
-        "id": "updatedDate",
+        "id": 14,
         "label": "Updated Date",
+        "key": "updatedDate",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "date",
         "display_order": 14
       },
       {
-        "id": "updatedBy",
+        "id": 15,
         "label": "Updated By",
+        "key": "updatedBy",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
@@ -773,48 +865,60 @@
   },"sensorModels":{
     "tableHeaders": [
       {
-        "id": "name",
+        "id": 1,
         "label": "Name",
+        "key": "name",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 1
       },
       {
-        "id": "description",
+        "id": 2,
         "label": "Description",
+        "key": "description",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 2
       },
       {
-        "id": "createdDate",
+        "id": 3,
         "label": "Created date",
+        "key": "createdDate",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "date",
         "display_order": 3
       },
       {
-        "id": "createdBy",
+        "id": 4,
         "label": "Created by",
+        "key": "createdBy",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 4
       },
       {
-        "id": "updatedDate",
+        "id": 5,
         "label": "Updated date",
+        "key": "updatedDate",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "date",
         "display_order": 5
       },
       {
-        "id": "updatedBy",
+        "id": 6,
         "label": "Updated by",
+        "key": "updatedBy",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
@@ -880,80 +984,99 @@
   },"sensors":{
     "tableHeaders": [
       {
-        "id": "name",
+        "id": 1,
         "label": "Name",
+        "key": "name",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 1
       },
       {
-        "id": "producer",
+        "id": 2,
         "label": "Producer",
+        "key": "producer",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 2
       },
       {
-        "id": "model",
+        "id": 3,
         "label": "Model",
+        "key": "model",
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 3
       },
       {
-        "id": "sensor_model",
+        "id": 4,
         "label": "Sensor model",
+        "key": "sensor_model",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 4
       },
       {
-        "id": "serial_number",
+        "id": 5,
         "label": "Serial number",
+        "key": "serial_number",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 5
       },
       {
-        "id": "power_type",
+        "id": 6,
         "label": "Power type",
+        "key": "power_type",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 6
       },
       {
-        "id": "createdDate",
+        "id": 7,
         "label": "Created date",
+        "key": "createdDate",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "date",
         "display_order": 7
       },
       {
-        "id": "createdBy",
+        "id": 8,
         "label": "Created by",
+        "key": "createdBy",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
         "display_order": 8
       },
       {
-        "id": "updatedDate",
+        "id": 9,
         "label": "Updated date",
+        "key": "updatedDate",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "date",
         "display_order": 9
       },
       {
-        "id": "updatedBy",
+        "id": 10,
         "label": "Updated by",
+        "key": "updatedBy",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
@@ -1120,6 +1243,8 @@
       {
         "id": 1,
         "label": "Name",
+        "key": "name",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
@@ -1128,6 +1253,8 @@
       {
         "id": 2,
         "label": "Description",
+        "key": "description",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
@@ -1136,6 +1263,7 @@
       {
         "id": 3,
         "label": "Address",
+        "key": "address",
         "sortable": true,
         "filterable": true,
         "type": "string",
@@ -1144,6 +1272,8 @@
       {
         "id": 4,
         "label": "Contact name",
+        "key": "contactName",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
@@ -1152,6 +1282,8 @@
       {
         "id": 5,
         "label": "Contact email",
+        "key": "contactEmail",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
@@ -1160,6 +1292,8 @@
       {
         "id": 6,
         "label": "Created date",
+        "key": "createdDate",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "date",
@@ -1168,6 +1302,8 @@
       {
         "id": 7,
         "label": "Created by",
+        "key": "createdBy",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
@@ -1176,6 +1312,8 @@
       {
         "id": 8,
         "label": "Updated date",
+        "key": "updatedDate",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "date",
@@ -1184,6 +1322,8 @@
       {
         "id": 9,
         "label": "Updated by",
+        "key": "updatedBy",
+        "isHidden": false,
         "sortable": true,
         "filterable": true,
         "type": "string",
